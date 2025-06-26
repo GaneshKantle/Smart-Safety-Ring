@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EmpowHER - Smart Safety Ring</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+<header class="main-header">
+  <nav class="primary-nav">
+    <div class="logo">
+      <a href="index.html">EmpowHER</a>
+    </div>
+
+    <!-- invisible checkbox drives the menu -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+
+    <!-- hamburger icon -->
+    <label for="nav-toggle" class="hamburger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+
+    <!-- links -->
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="/files/features.html">Features</a></li>
+      <li><a href="#how-it-works">How&nbsp;It&nbsp;Works</a></li>
+      <li><a href="/files/emergency.html">Emergency</a></li>
+      <li><a href="#contact" class="cta-button">Get&nbsp;Your&nbsp;Ring</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+    <main>
+      <!-- Hero Section -->
+      <section
+        id="hero"
+        class="hero-section"
+        style="
+          background: url('/images/img4.jpg') center center/cover no-repeat;
+          position: relative;
+        "
+      >
+        <div class="main-visual-overlay">
+          <div class="hero-content">
+            <h1>Smart Safety Ring</h1>
+            <p class="tagline">Protection at Your Fingertips</p>
+            <div class="hero-buttons">
+               <a href="files/features.html"><button
+                class="secondary-btn">
+                Features
+              </button></a>
+              <a href="#contact"><button
+                class="secondary-btn">
+                Order Now
+              </button></a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="ring-showcase">
+              <img src="images/img1.webp" alt="Smart Safety Ring" class="rotating-ring">
+              <div class="ring-highlights">
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- How It Works Section -->
+      <section id="how-it-works" class="how-it-works-section">
+        <h2>How It Works</h2>
+        <div class="steps-container">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Double Tap</h3>
+            <p>Quickly tap your ring twice to activate emergency mode</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Alert Sent</h3>
+            <p>Instant alerts are sent to your emergency contacts</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Location Shared</h3>
+            <p>Your precise location is shared in real-time</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Help Arrives</h3>
+            <p>Emergency contacts can track and reach you quickly</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ring Technology Section -->
+      <section id="ring-tech" class="ring-tech-section">
+        <h2>Advanced Technology</h2>
+        <div class="tech-showcase">
+<div class="lottie-ring">
+  <lottie-player
+    src="animations/ring-animation.json"
+    background="transparent"
+    speed="1"
+    style="width: 100%; height: auto;"
+    loop
+    autoplay>
+  </lottie-player>
+</div>
+          <div class="tech-details">
+            <div class="tech-spec">
+              <h3>Wireless Charging</h3>
+              <p>Precision wireless charging which enhance experience</p>
+            </div>
+            <div class="tech-spec">
+              <h3>Tap Detection</h3>
+              <p>Advanced accelerometer detects precise tap patterns</p>
+            </div>
+            <div class="tech-spec">
+              <h3>GPS Precision</h3>
+              <p>High-accuracy location tracking within 2 meters</p>
+            </div>
+            <div class="tech-spec">
+              <h3>Water Resistant</h3>
+              <p>IP67 rated for complete protection</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get Started Section -->
+      <section id="contact" class="contact-section">
+        <h2>Get Your Smart Safety Ring</h2>
+        <div class="contact-container">
+          <form id="order-form" class="order-form">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="Email Address" required />
+            <select required>
+              <option value="">Select Ring Size</option>
+              <option value="5">Size 5</option>
+              <option value="6">Size 6</option>
+              <option value="7">Size 7</option>
+              <option value="8">Size 8</option>
+            </select>
+            <button type="submit" class="primary-btn">Order Now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CAPRICORN</h3>
+          <p>Empowering women through innovative
+safety technology</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="files/features.html">Features</a></li>
+            <li><a href="files/emergency.html">Emergency Help</a></li>
+            <li><a href="#contact">Order Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: support@capricorn.com</p>
+          <p>Emergency: 24/7 Helpline</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+                <p>&copy; 2025 CAPRICORN. All Rights Reserved <a href="https://ganesh-portfolio-dusky.vercel.app/">GANESH KANTLE.</a></p>
+      </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>

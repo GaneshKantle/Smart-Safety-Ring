@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Services</title>
+    <link rel="stylesheet" href="/styles/emergency.css">
+</head>
+<body class="emergency-page">
+
+<header class="main-header">
+  <nav class="primary-nav">
+    <div class="logo">
+       <a href="/index.html" class="back-home">← Back to Home</a>
+    </div>
+
+    <!-- invisible checkbox drives the menu -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+
+    <!-- hamburger icon -->
+    <label for="nav-toggle" class="hamburger" aria-hidden="true">
+      <span></span><span></span><span></span>
+    </label>
+
+    <!-- links -->
+    <ul class="nav-links">
+
+      <li><a href="/files/features.html">Features</a></li>
+      <li><a href="/index.html">Technology</a></li>
+      <li><a href="/index.html">How&nbsp;It&nbsp;Works</a></li>
+      <li><a href="emergency.html">Emergency</a></li>
+      <li><a href="/index.html" class="cta-button">Get Your Ring</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+    <main class="emergency-main">
+        <section class="emergency-controls">
+            <div class="location-status">
+                <h2>Your Current Status</h2>
+                <div id="location-info">
+                    <p>Location: <span id="current-location">Detecting...</span></p>
+                    <p>Last Updated: <span id="last-updated">--</span></p>
+                </div>
+                <button onclick="refreshLocation()" class="refresh-btn">Refresh Location</button>
+            </div>
+
+            <div class="emergency-contacts">
+                <h2>Emergency Contacts</h2>
+                <div id="contacts-list">
+                    <!-- Contacts will be populated via JavaScript -->
+                </div>
+                <button onclick="addContact()" class="add-contact-btn">Add Contact</button>
+            </div>
+        </section>
+
+        <section class="quick-actions">
+            <h2>Quick Actions</h2>
+            <div class="action-buttons">
+                <button onclick="triggerFakeCall()" class="action-btn">Trigger Fake Call</button>
+                <button onclick="shareLocation()" class="action-btn">Share Location</button>
+                <button onclick="playAlarm()" class="action-btn">Sound Alarm</button>
+            </div>
+        </section>
+
+        <section class="ring-status">
+            <h2>Ring Status</h2>
+            <div class="status-indicators">
+                <div class="status-item">
+                    <span class="status-label">Battery</span>
+                    <div class="battery-indicator">
+                        <div id="battery-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Connection</span>
+                    <span id="connection-status" class="status-value connected">Connected</span>
+                </div>
+                <div class="status-item">
+                    <span class="status-label">Signal Strength</span>
+                    <div class="signal-strength">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar active"></div>
+                        <div class="bar active"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Emergency Modal -->
+    <div id="emergency-modal" class="modal">
+        <div class="modal-content">
+            <h2>Emergency Alert Activated</h2>
+            <p>Help is on the way!</p>
+            <div class="alert-status">
+                <div class="status-item">
+                    <span>Location Shared</span>
+                    <span class="status-check">✓</span>
+                </div>
+                <div class="status-item">
+                    <span>Contacts Notified</span>
+                    <span class="status-check">✓</span>
+                </div>
+                <div class="status-item">
+                    <span>Emergency Services Alerted</span>
+                    <span class="status-check">✓</span>
+                </div>
+            </div>
+            <button onclick="cancelEmergency()" class="cancel-btn">Cancel Alert</button>
+        </div>
+    </div>
+
+        <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>CAPRICORN</h3>
+          <p>Empowering women through innovative
+safety technology</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/files/features.html">Features</a></li>
+            <li><a href="/index.html">Technology</a></li>
+            <li><a href="emergency.html">Emergency Help</a></li>
+            <li><a href="/index.html">Order Now</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: support@capricorn.com</p>
+          <p>Emergency: 24/7 Helpline</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+              <p>&copy; 2025 CAPRICORN. All Rights Reserved <a href="https://ganesh-portfolio-dusky.vercel.app/">GANESH KANTLE.</a></p>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="/scripts/emergency.js"></script>
+</body>
+</html>
