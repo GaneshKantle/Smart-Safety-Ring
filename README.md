@@ -9,17 +9,21 @@
 
 ## 🎯 PROJECT OVERVIEW
 
-Smart-Safety-Ring is a cutting-edge project developed by GaneshKantle, offering innovative features that deliver premium quality in modern web applications. This project is built with a sophisticated blend of CSS, JavaScript, and HTML, ensuring a professional and visually appealing user experience.
+Smart-Safety-Ring is a next-gen wearable that instantly responds to danger. With SOS triggers, live location sharing, fall detection, and gesture recognition—it's not just smart tech, it's personal protection redefined.
 
 * 🌐 **Live Demo**: [https://smart-safety-ring.vercel.app/]
 
-## ✨ KEY FEATURES
+✅ KEY FEATURES
+- ✅ Emergency Ready: SOS siren, distress messages, and fake call deterrents
 
-- 💫 **Modern Design**: Sleek and professional UI/UX
-- 🔒 **Security**: Advanced safety features
-- 📱 **Responsive**: Works seamlessly on all devices
-- 🔄 **Efficient**: Optimized performance
-- 🎨 **Customizable**: Tailor it to your needs
+- ✅ Real-Time Safety: Live location sharing, geofencing, and multi-user tracking
+
+- ✅ Discreet & Powerful: Gesture-based alerts, fall detection, and panic mode
+
+- ✅ Always Connected: Auto Bluetooth pairing, battery alerts, and LED indicators
+
+- ✅ Fully Customizable: Choose your alert methods, contacts, and platforms
+
 
 ## 🚀 QUICK START
 
