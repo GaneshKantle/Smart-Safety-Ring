@@ -101,10 +101,6 @@ cd Smart-Safety-Ring
     cd Smart-Safety-Ring
     ```
 
-## 🤝 CONTRIBUTING
-
-We welcome contributions from everyone. To get started, please read our [Contribution Guidelines](CONTRIBUTING.md).
-
 ### Development Setup
 1. Fork the repository
 2. Clone your fork
