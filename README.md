@@ -119,4 +119,4 @@ For any queries, feel free to reach out:
 - **Email:** ganeshkantle@gmail.com
 - **My Portfolio:** (https://ganesh-portfolio-dusky.vercel.app/)
 
-### © 2025 GaneshKantle. All rights reserved.
+© 2025 GaneshKantle. All rights reserved.
