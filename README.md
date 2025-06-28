@@ -30,12 +30,6 @@ Smart-Safety-Ring is a cutting-edge project developed by GaneshKantle, offering 
 ```bash
 git clone https://github.com/GaneshKantle/Smart-Safety-Ring.git
 cd Smart-Safety-Ring
-npm install
-```
-
-### Running the Project
-```bash
-npm start
 ```
 
 ## 📊 STATISTICS & METRICS
