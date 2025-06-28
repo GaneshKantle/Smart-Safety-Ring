@@ -11,7 +11,7 @@
 
 Smart-Safety-Ring is a cutting-edge project developed by GaneshKantle, offering innovative features that deliver premium quality in modern web applications. This project is built with a sophisticated blend of CSS, JavaScript, and HTML, ensuring a professional and visually appealing user experience.
 
-* 🌐 **Live Demo**: [Coming Soon!]
+* 🌐 **Live Demo**: [https://smart-safety-ring.vercel.app/]
 
 ## ✨ KEY FEATURES
 
