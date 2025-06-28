@@ -114,6 +114,13 @@ We welcome contributions from everyone. To get started, please read our [Contrib
 6. Create a Pull Request
 
 
-© 2025 GaneshKantle. All rights reserved.
+## Contributing
+If you'd like to contribute, please fork the repository and submit a pull request. All contributions are welcome!
 
-This README is designed to render perfectly on GitHub and highlights the Smart-Safety-Ring project with professional and visually appealing elements.
+
+## Contact
+For any queries, feel free to reach out:
+- **Email:** ganeshkantle@gmail.com
+- **My Portfolio:** (https://ganesh-portfolio-dusky.vercel.app/)
+
+### © 2025 GaneshKantle. All rights reserved.
