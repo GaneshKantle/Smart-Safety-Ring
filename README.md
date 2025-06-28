@@ -53,9 +53,6 @@ This isn’t just a gadget—it’s a lifeline, thoughtfully designed for women,
 
 ## 🚀 QUICK START
 
-### Prerequisites
-* Ensure you have Git and Node.js installed
-
 ### Installation
 ```bash
 git clone https://github.com/GaneshKantle/Smart-Safety-Ring.git
@@ -90,11 +87,6 @@ cd Smart-Safety-Ring
 ### Architecture Overview
 - **Frontend**: HTML, CSS, JavaScript
 - **Backend**: Server-side scripts
-- **Dependencies**:
-  ```bash
-  npm install --save jquery
-  npm install --save bootstrap
-  ```
 
 ## 📖 DETAILED DOCUMENTATION
 
@@ -108,22 +100,6 @@ cd Smart-Safety-Ring
     ```bash
     cd Smart-Safety-Ring
     ```
-3. Install dependencies:
-    ```bash
-    npm install
-    ```
-
-### Configuration Options
-- **Settings File**: `settings.json`
-- **API Configuration**: `api-config.js`
-
-### Usage Examples
-```javascript
-// index.js
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Smart-Safety-Ring Initialized');
-});
-```
 
 ## 🤝 CONTRIBUTING
 
@@ -137,19 +113,7 @@ We welcome contributions from everyone. To get started, please read our [Contrib
 5. Push to the branch
 6. Create a Pull Request
 
-## 📄 LICENSE & CREDITS
 
-This project is licensed under the [Open Source License](LICENSE).
-
-### Acknowledgments
-- Thanks to all contributors
-- Special thanks to GitHub for the amazing platform
-
-### Contact
-[Contact GaneshKantle](mailto:your-email@example.com)
-
----
-
-© 2023 GaneshKantle. All rights reserved.
+© 2025 GaneshKantle. All rights reserved.
 
 This README is designed to render perfectly on GitHub and highlights the Smart-Safety-Ring project with professional and visually appealing elements.
